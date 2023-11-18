@@ -19,7 +19,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        image: alysialfi/notification-page
+        image: hikio/notification-page
         tags: v1, latest
         registry: docker.io
         dockerfile: docker/DockerFile
